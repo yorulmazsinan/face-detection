@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yüz Algılama</title>
+  <script defer src="node_modules/face-api.js/dist/face-api.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    canvas {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <video id="video" width="1440" height="1120" autoplay muted></video>
+</body>
+</html>
